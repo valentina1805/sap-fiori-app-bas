@@ -1,0 +1,26 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.businesspartners.controller.Suppliers" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+    <content>
+        <CustomListItem type="Navigation" id="item17" content="{/BusinessPartnerSet}">
+            <content>
+                <StandardListItem type="Navigation" title="{CompanyName}" description="Description text{WebAddress}" icon="sap-icon://picture" id="item20"/>
+            </content>
+        </CustomListItem>
+        <ComboBox xmlns="sap.m" id="box2">
+            <items>
+                <core:Item xmlns:core="sap.ui.core" key="item-1-key" text="Item 1 Text" id="item12"/>
+                <sap.ui.core:ListItem xmlns:sap.ui.core="sap.ui.core" text="List item" id="item16"/>
+                <sap.ui.core:ListItem xmlns:sap.ui.core="sap.ui.core" text="List item" id="item15"/>
+                <core:Item xmlns:core="sap.ui.core" key="item-2-key" text="Item 2 Text" id="item13"/>
+                </items>
+            
+        </ComboBox>
+        <sap.ui.core:ComponentContainer xmlns:sap.ui.core="sap.ui.core" width="100%" id="container0"/>
+        <CustomListItem type="Navigation" id="item14">
+            <content>
+                <Text text="sample custom content" id="text6"/>
+            </content>
+        </CustomListItem>
+    </content>
+    </Page>
+</mvc:View>
